@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part1, .part2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.part2 {
+    background-color: #EEEDFB;
+    height: 100vh;
+}
+
+
+.part1 h1 {
+    font-size: 5rem;
+}
+
+.booking-img {
+    width: 25rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    width: 18rem;
+    padding: 1rem 2rem;
+    border: none;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    background-color: #645BE8;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.button:hover {
+    background-color: #1E14BD;
+    
+}
+
+/* ------------Booking--------- */
+
+.back {
+    position: absolute;
+    top: 0;
+    margin: 3rem;
+    font-size: 2rem;
+}
+
+.reg-container h1 {
+    font-size: 3rem;
+}
+
+.reg-container form div input {
+    margin-bottom: 1rem;
+    margin-top: 0.8rem;
+}
+
+/* ------------Details--------- */
+
+.details-container {
+  width: 100vw;
+}
+
+.details-container h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.display table{
+    text-align: center;
+}
+.display table tr {
+    background-color: #e2e1f3;
+}
+
+.display table th {
+    background-color: #bebbff;
+}
+
+.display table td, th {
+    padding: 1rem 3rem;
+}
